@@ -1,0 +1,88 @@
+
+
+{
+  "bookmarksCollection": [
+    {
+      "id": "001",
+      "total" : 3,
+      "title": "HTML Learning Resources ",
+      "bookmarks": [
+        {
+          "id": "01a",
+          "quantity": 1,
+          "name": "HTML Tutorial",
+          "url": "https://www.w3schools.com/html/"
+        },
+        {
+          "id": "01b",
+          "quantity": 1,
+          "name": "The best way to learn HTML",
+          "url": "https://webdesign.tutsplus.com/tutorials/the-best-way-to-learn-html--webdesign-10144"
+        },
+        {
+          "id": "01c",
+          "quantity": 1,
+          "name": "Video Tutorial",
+          "url": "https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB"
+        }
+      ]
+    },
+    {
+      "id": "002",
+      "total": 4,
+      "title": "CSS Learning Resources",
+      "bookmarks": [
+        {
+          "id": "02a",
+          "quantity": 1,
+          "name": "CSS Tutorial",
+          "url": "https://www.w3schools.com/css/"
+        },
+        {
+          "id": "02b",
+          "quantity": 1,
+          "name": "Step by step Learning",
+          "url": "http://www.csstutorial.net"
+        },
+        {
+          "id": "02c",
+          "quantity": 1,
+          "name": "CSS Video tutotial for beginners",
+          "url": "https://www.youtube.com/playlist?list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C"
+        },
+        {
+          "id": "02d",
+          "quantity": 1,
+          "name": "CSS Layout video tutorial",
+          "url": "https://www.youtube.com/playlist?list=PLr6-GrHUlVf9ZleRsd5oTcrziNglndsXW"
+        }
+      ]
+    },
+    
+    {
+      "id": "003",
+      "total": 3,
+      "title": "Javascript Learning Resources",
+      "bookmarks": [
+        {
+          "id": "03a",
+          "quantity": 1,
+          "name": "Javascript books",
+          "url": "http://tutorialzine.com/2015/05/15-awesome-and-free-javascript-books/"
+        },
+        {
+          "id": "03b",
+          "quantity": 1,
+          "name": "Practical Tutorial",
+          "url": "https://www.codecademy.com/learn/javascript"
+        },
+        {
+          "id": "03c",
+          "quantity": 1,
+          "name": "Javascript Video tutorial",
+          "url": "https://www.youtube.com/playlist?list=PLr6-GrHUlVf96NLj3PQq-tmEB6woZjwEl"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+<table class="ui table">
+  <thead>
+    <tr>
+      <th>Song</th>
+      <th>Artist</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each bookmarks.songs}}
+      <tr>
+        <td>
+          {{name}}
+        </td>
+        <td>
+          {{url}}
+        </td>
+         <td>
+          <a href="/bookmarks/{{../bookmarks.id}}/deletebookmarks/{{id}}" class="ui tiny red button">Delete Bookmarks</a>
+        </td>
+      </tr>
+   {{/each}}
+ </tbody>
+ </table>

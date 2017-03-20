@@ -1,0 +1,62 @@
+{{> menu id="dashboard"}}
+
+{{#each bookmarks}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    
+    <div class="item">
+    <i class="bookmark icon"></i>
+    <buttin class="ui blue basic button">
+     <a href="bookmarks-store/{{id}}"> Number of Bookmarks {{total}} </a></div>
+    </div>
+    </div>
+  
+    <table class="ui table">
+      <thead>
+        <tr>
+          <th>title</th>
+          <th>link</th>
+        </tr>
+      </thead>
+     
+      <tbody>
+        {{#each bookmarks}}          
+          <tr>
+            <td>
+             {{name}}
+            </td>
+            <td>
+              <a href="bookmarks-store/{{id}}"> {{url}} </a>      
+            </td>
+            <td>
+              {{delete}}
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+    
+  </section>
+{{/each}}
+
+
+
+
+
+
+//STATIC LIST OF BOOKMARKS,CATEGORIES
+//{{#each bookmarks}}
+//  <section class="ui segment">
+//    <h2 class="ui header">
+//      {{title}}
+//    </h2>
+//    <div class="item">
+//    <i class="bookmark icon"></i>
+//    <buttin class="ui blue basic button">
+//     <a href="bookmarks-store/{{id}}"> Number of Bookmarks {{total}} </a></div>
+//    </div>
+//    </div>
+//  </section>
+//{{/each}}
